@@ -12,7 +12,6 @@
 # 8. Create file directory & start to output h5 file / Plot initial condition & save code
 # 9. Main integration loop
 #########################################################################
-# Topics in Independent Research
 # import packages
 import numpy as np
 import matplotlib.pyplot as plt
@@ -38,7 +37,7 @@ def All_coef():
     # Run setting
     # ==============================================    
     global R_name
-    R_name = "beta02_kappa01"
+    R_name = "beta03_kappa01"
     
     # ==============================================
     # Output setting
@@ -63,10 +62,10 @@ def All_coef():
     nu_tilt = 1e-17              # Follow SNC
     Ld_L = 0.02
     F_drag = 0.1    # given in GF21
-    F_beta = 0.2    # given in GF21
+    F_beta = 0.3    # given in GF21
     
-    drag_tilt = F_drag/Ld_L
-    beta_tilt = F_beta*(1/Ld_L)**2
+    drag_tilt = F_drag/Ld_L          # use L to scale instead of Ld
+    beta_tilt = F_beta*(1/Ld_L)**2   # use L to scale instead of Ld
     # ==============================================
     # Set forcing Coef
     # ==============================================

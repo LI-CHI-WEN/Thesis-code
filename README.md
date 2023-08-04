@@ -1,8 +1,5 @@
-# Thesis-code
-Dedalus code for homogenoeus/inhomogeneous model
-==============================================
-Structure of dedalus project
-==============================================
+# Dedalus code for homogenoeus/inhomogeneous model
+Structure of dedalus project:
 1. Run name & detail setting
 2. Run type, output frequency, domain size & (coef / forcing coef) setting
 3. Giving Background field (forcing)
